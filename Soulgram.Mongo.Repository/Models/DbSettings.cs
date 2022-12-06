@@ -1,6 +1,6 @@
 ﻿namespace Soulgram.Mongo.Repository.Models
 {
-    internal class DbSettings
+    public class DbSettings
     {
         public string ConnectionString { get; set; } = null!;
 

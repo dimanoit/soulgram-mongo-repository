@@ -2,7 +2,7 @@
 
 namespace Soulgram.Mongo.Repository.Interfaces
 {
-    internal interface IMongoConnection
+    public interface IMongoConnection
     {
         Task<IClientSessionHandle> Session { get; }
         IMongoCollection<TDocument> GetMongoCollection<TDocument>();

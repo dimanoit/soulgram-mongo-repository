@@ -5,7 +5,7 @@ using Soulgram.Mongo.Repository.Models;
 
 namespace Soulgram.Mongo.Repository
 {
-    internal class MongoConnection : IMongoConnection
+    public class MongoConnection : IMongoConnection
     {
         private readonly IMongoClient _mongoClient;
 

@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace Soulgram.Mongo.Repository
 {
-    internal class MongoRepository<TDocument> where TDocument : class
+    public class MongoRepository<TDocument> where TDocument : class
     {
         private readonly IMongoConnection _connection;
 
